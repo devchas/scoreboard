@@ -1,0 +1,273 @@
+body {
+	font-size: 18px;
+	font-family: arial;
+}
+
+h1 {
+	border: 1px solid black;
+	border-bottom: 4px solid #484848;
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-top: -34px;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+
+.exist {
+	border: 1px solid black;
+	border-bottom: 4px solid #484848;
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+
+
+div {
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+#inputs {
+	display: block;
+	
+}
+
+#inputs td {
+	width: 105px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.log .winner {
+	text-align: center;	
+	background-color: #CCFF99;
+	padding: 3px 5px;
+	border: 1px solid #339900;
+}
+
+.log .loser {
+	text-align: center;	
+	background-color: #FF9966;
+	padding-bottom: 3px 5px;
+	border: 1px solid #FF0000;
+}
+
+.log th {
+	border-bottom: 4px solid #484848;
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	padding: 4px 0 2px 0;
+	vertical-align: bottom;
+}
+
+.log td {
+	width: 200px;
+	font-family: arial;
+	padding: 4px 0 2px 0;
+}
+
+.log .edit {
+	text-align: right;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+#team {
+	width: 140px;
+}
+
+.leaderboard .name {
+	padding-left: 7px;
+	text-align: left;
+	width: 160px;
+}
+
+.log .comment {
+	text-align: left;
+	vertical-align: top;
+	font-size: 14px;
+	padding: 5px 0 1px 5px;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 5px 0;
+	
+}
+
+.comment b {
+	color: blue;
+}
+
+.log .inComment {
+	padding-top: 5px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.log {
+	border: 1px solid #A8A8A8;
+	padding: 5px;
+	background-color: #F0F0F0;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.log p {
+	margin: 1px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #006699;
+	padding: 0 0 2px 3px;
+}
+
+.log a {
+	display: block;
+	font-size: 12px;
+	float: right;
+	margin-right: 8px;
+}
+
+.leaderboard th {
+	border-bottom: 4px solid #484848;
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	padding: 4px 0 2px 0;
+	vertical-align: bottom;
+}
+
+.leaderboard td {
+	width: 90px;
+	text-align: center;
+	font-family: arial;
+	padding: 4px 0 2px 0;
+	background-color: #E8E8E8;
+}
+
+.entry {
+	text-align: center;
+	font-family: arial;
+	background-color: #E8E8E8;
+}
+
+.entry td {
+	width: 105px;
+	font-family: arial;
+	padding-bottom: 2px;
+}
+
+.entry th {
+	border: 1px solid white;
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	padding: 2px 0;
+}
+
+.entry {
+	border-collapse: collapse;
+}
+
+.log .img {
+	color: black;
+	font-size: 12px;
+}
+
+.button {
+	background-color: #006699;
+	color: white;
+	padding: 5px 10px;
+	font-weight: bold;
+	border-radius: 3px;
+	border: none;
+}
+
+.title {
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	padding: 5px 0 5px 5px;
+	text-align: center;
+	margin-top: -21px;
+	margin-bottom: 1px;
+}
+
+#selectors h2 {
+	padding: 5px 0 5px 5px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+button {
+	font-size: 14px;
+	background: linear-gradient(to bottom right, #006699 , #484848);
+	color: white;
+	padding: 5px 15px;
+	margin: 0 -3px;
+	font-weight: bold;
+	border: 1px solid white;
+}
+
+#selectors {
+	display: block;
+	margin: -54px 0 0 0;
+}
+
+.commsbutton {
+	background-color: #006699;
+	color: white;
+	padding: 5px 8px;
+	font-weight: bold;
+	border-radius: 3px;
+	border: none;
+	font-size: 12px;
+	margin: 10px 0 3px 0;
+}
+
+#logs, #leaderboard {
+	display: block;
+}
+
+#nav button {
+	width: 103px;
+	padding: 10px 0;
+}
+
+#selectors button {
+	width: 103px;
+	padding: 10px 0;
+	background: linear-gradient(to bottom right, #33CCFF , #484848);	
+}
+
+img {
+	padding-left: 0px;
+}
+
+.return {
+	font-size: 15px;
+	color: blue;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1 a:link {
+    text-decoration: none;
+	color: white;
+}
+
+h1 a:visited {
+    text-decoration: none;
+	color: white;
+}
+
+h1 a:hover {
+    text-decoration: none;
+	color: white;
+}
+
+h1 a:active {
+    text-decoration: none;
+	color: white;
+}
